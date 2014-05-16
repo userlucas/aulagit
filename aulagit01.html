@@ -1,0 +1,107 @@
+ <html>
+<head>
+	<title> PHP5 - Guia do Progamador - Exemplo de um formulario WEB </title>
+<body>
+	<form name="usr" method="post" action="cadastra_usuario.php">
+	<table border="1" cellpadding="5" celspacing="5">
+	<tr>
+		<td colspan=2 height="30" bgcolor="blue">
+		 <b> PHP 5 - Guia do progamador: Cadastro de Usuario</br>
+		<td>
+	</tr>
+	<tr>
+	
+		<td colspan=2 height="30"> <font color="yelow">
+		<b> Informe seus dados: </b> </font>
+		</td>
+	</tr>
+	<tr
+		<td width="20%" height="30"> Nome: </td>
+		<td height="30">
+		<input type="text" name="USR_NOME" size="30">
+		</td>
+	</tr>
+	<tr>
+		<td width="10%" height="30" valign="top" Endereço: </td>
+		<td height="30">
+		<textarea name="USR_ENDERECO" cols="60" rows="5"> </textarea>
+		</td>
+		</tr>
+			<td width="10% height="30"> Bairro: </td>
+			<td height="30">
+			<input type="text" name"USR_BAIRRO" size="30">
+			</td>
+ 		</tr>
+		<tr>
+			<td width="10%" height="30" class="login"> Cidade: </td>
+			<td height="30">
+			<input type="text" name="USR_CIDADE" size="30">
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" height="30" class="login"> Estado: </td>
+			<td height="30">
+			<select name="USR_UF">
+				<option value="SP"> Sao Paulo </option>
+				<option value="RJ"> Rio de Janeiro </option>
+				<option value="ES"> Espirito Santo </option>
+				<option value="MG"> Minas Geris </option>
+				<option value="RS"> Rio Grande do Sul </option>
+				<option value="AM"> Amazonas </option>
+				<option value="CE"> Ceara </option>
+				<option value="MA"> MARANHAO </option>
+				
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" height="30"> E-mail: </td>
+			<td height="30">
+			<input type="text" name="USR_EMAIL" size="30">
+			</td>
+		</tr>
+		<td width="10%" height="30" class="login"> Sexo: </td>
+			<td height="30">SEXO:
+			<select name="USR_SEXO">
+				<option value="MASC"> MASCULINO </option>
+				<option value="FE"> FEMININO </option>
+				
+			</select>
+			</td>
+		</tr>
+		
+			 <tr>
+		<td width="10%" height="30"> CPF: </td>
+			<td height="30">
+			<input type="text" name="USR_CPF" size="10">
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" height="30"> Login: </td>
+			<td height="30">
+			<input type="text" name="USR_LOGIN" size="10">
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" height="30"> Senha: </td>
+			<td height="30">
+			<input type="PASSWORD" name="USR_SENHA" size="10">
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" height="30"> Confirmacao de senha: </td>
+			<td height="30">
+			<input type="PASSWORD" name="USR_SENHA2" size="10">
+			</td>
+		</tr>
+		<tr height="60" valign="bottom">
+			<td width="20%"></td>
+			<td height="30" valign="bottom">
+			<input type="submit" value=" Ok ">-------;
+			<input type="reset" value="Limpar">
+			</tr>
+		</table>
+		</form>
+	</body>
+	</html>
+		
